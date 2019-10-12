@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+    <Button
+        android:id="@+id/btnDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:foregroundGravity="center"
+        android:shadowColor="@android:color/darker_gray"
+        android:text="Vehicle Route Details!" />
+
+    <Button
+        android:id="@+id/btnDisp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnDetails"
+        android:layout_marginLeft="150dp"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="25dp"
+        android:shadowColor="@android:color/darker_gray"
+        android:layout_centerHorizontal="true"
+        android:text="Display Route" />
+
+    <Button
+        android:id="@+id/btnInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnDisp"
+        android:layout_marginTop="25dp"
+        android:shadowColor="@android:color/darker_gray"
+        android:layout_centerHorizontal="true"
+        android:text="Info" />
+</RelativeLayout>
